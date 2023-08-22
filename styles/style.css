@@ -42,3 +42,7 @@ button:hover {
     color: black;
     border: 1px solid black;
 }
+
+nav {
+    display: flex;
+}
