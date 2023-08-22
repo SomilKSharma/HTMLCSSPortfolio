@@ -45,4 +45,28 @@ button:hover {
 
 nav {
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: brown;
+}
+
+nav>h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 24px;
+}
+
+nav>ul>li:hover {
+    text-decoration: underline;
+}
+
+nav>ul>li>a {
+    color: brown;
 }
