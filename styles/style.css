@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     font-family: 'Dancing Script', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -83,6 +82,8 @@ input {
 main {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .textonleft {
@@ -95,9 +96,9 @@ main {
     display: flex;
     flex-direction: column;
     width: 40%;
+    gap: 40px;
     align-items: center;
     justify-content: center;
-    gap: 30px;
 }
 
 .textonleft span {
